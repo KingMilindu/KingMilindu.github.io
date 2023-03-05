@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  font-family: sans-serif;
+  backgroundImage: 'url("https://via.placeholder.com/500")';
+  }
+
+
+.city-name {
+  font-size: 40px;
+  margin: 0;
+}
+
+.city-name span {
+  text-transform: capitalize;
+}
+
+.city-name sup {
+  font-size: 20px;
+  vertical-align: top;
 }
